@@ -11,7 +11,6 @@ body{
 	text-align: center;
 	font-size: 80px;
 	font-family: Helvetica, sans-serif;
-	opacity: .75;
 
 	position: absolute;
     width: 610px;
@@ -28,9 +27,17 @@ body{
 	transform:scale(-1,1)
 
 }
+.flipped{
+	opacity: .75;
+	display:inline-block;
+	-moz-transform: scale(-1,1);
+	-o-transform: scale(-1,1); 
+	-webkit-transform: scale(-1,1); 
+	transform:scale(-1,1)
+}
 </style>
 </head>
 <body>
-<div id="name">Trisha</div>
+<div id="name">Trisha <div class="flipped">Dimayuga</div></div>
 </body>
 </html>
